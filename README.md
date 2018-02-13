@@ -14,7 +14,7 @@ Once you've created your skill, you can use some of the phrases below to ask for
 You can add more utterances and slot type values to the ones below if you can think of a more natural way to ask Alexa questions.
 
 ## Lambda Function
-During set up, you will be asked to create an Amazon Lambda function to host your skill's code. You'll want to create a Node.js Lambda function and use the code in the [index.js](https://github.com/jamesmillerio/Urban-Dictionary-Alexa-Skill/blob/master/index.js) file within this repository. You will need to make one modification to it though, and that's to line three shown below:
+During set up, you will be asked to create an Amazon Lambda function to host your skill's code. You'll want to create a Node.js Lambda function named "GetUrbanDictionaryDefinition" and use the code in the [index.js](https://github.com/jamesmillerio/Urban-Dictionary-Alexa-Skill/blob/master/index.js) file within this repository. You will need to make one modification to it though, and that's to line three shown below:
 
 > var APP_ID = "PLACE YOUR APP ID HERE";
 
