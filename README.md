@@ -4,6 +4,15 @@ Want to ask your Echo questionable terms and phrases? Curious what **!&%@$** mea
 
 This skill can be side-loaded into your [Amazon Alexa Developer Account](https://developer.amazon.com/) by using the information below to fill out your skill preferences. The wizard that Amazon guides you through to create your skill will have sections that mirror those below. Use the values below to fill out those fields.
 
+## Usage
+Once you've created your skill, you can use some of the phrases below to ask for definitions:
+
+1. Alexa, ask Urban Dictionary to define _________________.
+2. Alexa, ask Urban Dictionary what does _________________ mean.
+3. Alexa, ask Urban Dictionary what _________________ means.
+
+You can add more utterances and slot type values to the ones below if you can think of a more natural way to ask Alexa questions.
+
 ## Lambda Function
 During set up, you will be asked to create an Amazon Lambda function to host your skill's code. You'll want to create a Node.js Lambda function and use the code in the [index.js](https://github.com/jamesmillerio/Urban-Dictionary-Alexa-Skill/blob/master/index.js) file within this repository. You will need to make one modification to it though, and that's to line three shown below:
 
