@@ -19,8 +19,6 @@ var getUrbanDictionaryResponse = function(phrase, callback) {
 
             var json = JSON.parse( data );
 
-            console.log(json);
-
             (callback || noop)(json);
 
         } );
@@ -32,8 +30,6 @@ var outputMessage = function(entry, phrase, count, context) {
 
     var responseMessage = "";
     var card = null;
-
-    console.log(entry);
 
     if(entry != null) {
 
@@ -62,8 +58,6 @@ var outputMessage = function(entry, phrase, count, context) {
         responseMessage = "Sorry, couldn't find an entry for " + endWithPeriod(phrase);
 
     }
-
-    console.log(responseMessage);
 
     context.succeed({
         response: {
@@ -142,8 +136,6 @@ exports.handler = function(event, context, callback) {
                 this.emit('Unhandled');
                 return;
             }
-
-            console.log("Phrase: " + phrase);
 
             phrase = phrase.toLowerCase();
 
