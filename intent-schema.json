@@ -1,0 +1,21 @@
+{
+  "intents": [
+    {
+      "slots": [
+        {
+          "name": "Phrase",
+          "type": "AMAZON.LITERAL"
+        },
+        {
+          "name": "SearchPrefix",
+          "type": "SearchPrefix"
+        },
+        {
+          "name": "SearchSuffix",
+          "type": "SearchSuffix"
+        }
+      ],
+      "intent": "GetUrbanDictionaryDefinition"
+    }
+  ]
+}
